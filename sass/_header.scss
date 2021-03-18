@@ -1,0 +1,85 @@
+// .container.wrap {
+//     position: relative;
+// }
+.header {
+    position: absolute;
+    width: 100%;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'Oranienbaum', serif;
+    color: #fff;
+    z-index: 1;
+
+    &__nav {
+        width: 100%;
+        & button {
+            padding: 2rem;
+            & span {
+                display: block;
+                width: 3.5rem;
+                height: 2px;
+                background-color: #fff;
+                &::before, &::after {
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    background-color: #fff;
+                     }
+                &::before {
+                    transform: translateY(-.9rem);
+                }
+                &::after {
+                    transform: translateY(.7rem);
+                }
+            }
+        }
+        &-item {
+            &:not(:last-child) {
+                margin-right: 2rem !important;
+            }
+            & a {
+                color: #fff!important;
+                padding: 2rem;
+
+            } //.header__nav-item a
+        } //.header__nav-item
+    } //.header__nav
+
+    &__socials {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .item {
+            height: 24px;
+            width: 24px;
+            margin: .5rem;
+            cursor: pointer;
+
+            &:hover {
+                background-position: 0 -25px;
+            }
+        }
+        &-inst {
+            background-image: url('/img/1438557260_inst_4.png');
+        }
+        &-fb {
+            background-image: url('/img/1438557245_ab_4.png');
+        }
+        &-vk {
+            background-image: url('/img/1438423986_vk_3.png');
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & p {
+            text-align: right;
+        }
+    }//.header__contacts
+}// .header
+

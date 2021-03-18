@@ -1,0 +1,29 @@
+//сброс  вуафгде  настроек
+* {padding: 0; margin: 0;}
+*, *::before, *::after {box-sizing: inherit;}
+html {box-sizing: border-box; font-size: 62.5%; // 1 rem = 10 px
+
+    @media only screen and (max-width:64em) { // 1024 px
+        font-size: 50%; // 1 rem = 8px
+    }
+} 
+body {
+    background-color: $main-bg;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oranienbaum', serif;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+// .wrap {
+//     display: block;
+//     max-width: 120rem;
+//     margin: 0 auto;
+//     background-color: #fff;
+// }
