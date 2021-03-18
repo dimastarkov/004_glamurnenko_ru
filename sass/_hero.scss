@@ -2,8 +2,10 @@ section.main__hero {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        background-image:url('/img/bg-main.png');
-        min-height: 821px;
+        background:url('/img/bg-main.png') center top;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        min-height: 60rem;
         position: relative;
         font-family: 'Oranienbaum', serif;
         font-size: 2.4rem;
