@@ -1,0 +1,38 @@
+{
+  "name": "004_glamurnenko_ru",
+  "version": "1.0.0",
+  "description": "тестовое задание для гламурненко ру",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.css",
+    "build:css": "npm-run-all compile:sass prefix:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimastarkov/004_glamurnenko_ru.git"
+  },
+  "author": "Dima Starkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimastarkov/004_glamurnenko_ru/issues"
+  },
+  "homepage": "https://github.com/dimastarkov/004_glamurnenko_ru#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "browserslist": "^4.16.3",
+    "concat": "^1.0.3",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-scss": "^3.0.5"
+  },
+  "browserslist": [
+    "last 10 versions",
+    "> .5%",
+    "IE 9"
+  ]
+}
