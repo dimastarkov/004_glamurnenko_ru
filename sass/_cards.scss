@@ -1,0 +1,95 @@
+section.cards {
+
+    & .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    & .cards {
+        &-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    & .card {
+        width:25%;
+        min-height: 48rem;
+        font-size: 1.6rem;
+        transition: all .2s;
+        
+
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+
+        &:hover {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2);
+        }
+
+        &-body {
+            padding: 3rem;
+            display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+        & .title {
+            display: block;
+            padding-bottom: 3rem;
+            text-align: center;
+        }
+        & .details {
+            padding-bottom: 2rem;
+            display: block;
+            text-align: left;
+        }
+
+        & .price {
+            & span {
+                display: block;
+                font-size: 2rem;
+            }
+
+            & .old {
+                font-weight: 100;
+                position: relative;
+
+                & .fas {
+                    font-weight: 100;
+                }
+
+                &::before {
+                    content:"";
+                    width:7rem;
+                    display: inline-block;
+                    height: 1px;
+                    background-color: red;
+                    position: absolute;
+                    top: 1rem;
+                    left: 50%;
+                    transform: rotate(-10deg) 
+                               translateX(-50%);
+                    
+                }
+
+            } //old price
+
+           
+            } // price
+
+            & a {
+                display: inline-block;
+                width: 100%;
+                margin-top: 3rem;
+                padding: 1rem;
+                text-transform: uppercase;
+                color: #fff;
+                background-color: red;
+                border-radius: 3px;
+            }
+        } // card
+
+        
+        
+    } //section.cards

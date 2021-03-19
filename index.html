@@ -7,8 +7,9 @@
     <title>Гламурненько</title>
     <!--шрифты-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto&display=swap" rel="stylesheet">
-    
+<link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--bootstrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--главный файл стилей-->
@@ -16,7 +17,7 @@
 </head>
         
 <header class="header d-flex justify-content-between">
-    <div class="container wrap">
+    <div class="container">
     <nav class="header__nav navbar navbar-expand-lg navbar-light starkov">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon"></span>
@@ -61,7 +62,7 @@
         </div> <!--header__contacts-->
 
     </nav> <!--nav-->
-     </div> <!--container wrap-->
+     </div> <!--container-->
 </header>
     
 
@@ -71,7 +72,8 @@
         <article class="main">
             
             <section class="main__hero">
-                <div class="container wrap">
+           
+                <div class="container">
                     <div class="hero-logo">
                         <img src="/img/logo-new.png" alt="Logo">
                     </div>
@@ -80,30 +82,195 @@
                         <span class="mission-desc">Миллион красиво одетых женщин</span>
                     </h2>
                 </div>
-                </section>
+         
+         </section>
 
 
 
 
                 <section class="main__content post">
-                    <div class="container wrap new">
+                  
+                    <div class="container new">
     
+                       
                             <h1 class="post__title">Скорая стильная помощь</h1>
                             <p class="post__summary">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
                                 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
                                 
-                            
-                    </div>
-                    <div class="container wrap full-width">
+                         </div>   
+                   
+                    <div class="container full-width">
                         <div class="post__image">
                              <img src="/img/form-reservation-bigcolor.jpg" alt="post__image" class="">
+                             <p>Описание картинки</p>
                         </div>
                     </div>
+                   
+                    <div class="container">
+                        <div class="post__wrap">
+                            <h2 class="post__subtitle">Как все происходит</h2>
+
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <p class="ml-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                  
                 </section>
-        
+
+                
+                <section class="table">
+                 
+                    <div class="container">
+                        <div class="post__wrap">
+                            <table class="">
+                                <thead>
+                                  <tr class="">
+                                    <th class="cell-head bg-warning">ВЫ ПОЛУЧАЕТЕ:</th>
+                                    <th class="bg-warning col-card" >ТЕОРИЯ</th>
+                                    <th class="bg-warning col-card">ПРАВКТИКА</th>
+                                    <th class="bg-warning col-card">VIP</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th class="cell-head">Все материалы тренинка</th>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th class="cell-head">Проверка ДЗ</th>
+                                    <td class="col-card"><i class="fa fa-minus"></i></td>
+                                    <td class="col-card">2.5 месяца <span>имиджмейкером команды Гламурненько.ру</span></td>
+                                    <td class="col-card">2.5 месяца <span>лично Екатериной Маляровой</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th class="cell-head">Тренажер по стилевым типажам</th>
+                                    <td class="col-card"><i class="fa fa-minus"></i></td>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th class="cell-head">Тренажер по вещам и образам</th>
+                                    <td class="col-card"><i class="fa fa-minus"></i></td>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                    <td class="col-card"><i class="fas fa-check"></i></td>
+                                  </tr>
+                                  <tr>
+                                    <th class="cell-head bg-warning">Цена</th>
+                                    <td class="bg-warning price">7&nbsp;990</td>
+                                    <td class="bg-warning price">9&nbsp;900</td>
+                                    <td class="bg-warning price">24&nbsp;990</i></td>
+                                  </tr>
+                                  <tr>
+                                    <th class="cell-head">&nbsp;</th>
+                                    <td colspan="3">
+                                        <i class="fas fa-ruble-sign currencies"></i>
+                                        <i class="fas fa-euro-sign currencies"></i>
+                                        <i class="fas fa-dollar-sign currencies"></i>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th class="cell-head">&nbsp;</th>
+                                    <td><a href="#">Заказать</a></td>
+                                    <td><a href="#">Заказать</a></td>
+                                    <td><a href="#">Заказать</a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div> <!--post__wrap-->
+                    </div> <!--container-->
+                   
+                </section> <!--table-->
+
+                <section class="books">
+                   
+                    <div class="container">
+                        <img src="/img/2razmera_books_preview_1200_c.png" alt="books">
+                    </div>
+                    
+                </section>
+
+                <section class="cards">
+                    
+                    <div class="container">
+                        <h3>Пакеты услуг</h3>
+                        <div class="cards-box">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <p class="card-text">Пакет</p>
+                                    <h4 class="card-title"><q>Попробовать</q></h4>
+                                </div>
+                              <div class="details">
+                                <p>Срок:</p>
+                                <p><strong>в течение 24 часов</strong></p>
+                            </div>
+                            <div class="details">
+                                <p>Вопросов/комплектов на оценку</p>
+                                <p><strong>5 ваших луков или вопросов</strong></p>
+                            </div>
+                            <div class="price">
+                                <span class="old">890&#8381;</span>
+                                <span class="new">490&#8381;</span>
+                            </div>
+
+                            <a href="#">Заказать</a>
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                <p class="card-text">Пакет</p>
+                                <h4 class="card-title"><q>1 день</q></h4>
+                            </div>
+                                <div class="details">
+                                    <p>Срок:</p>
+                                    <p><strong>в течение 24 часов</strong></p>
+                                </div>
+                                <div class="details">
+                                    <p>Вопросов/комплектов на оценку</p>
+                                    <p><strong>до 100</strong></p>
+                                </div>
+                                <div class="price">
+                                    <span class="old">3990&#8381;</span>
+                                    <span class="new">2990&#8381;</span>
+                                </div>
+
+                                <a href="#">Заказать</a>
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                <p class="card-text">Пакет</p>
+                                <h4 class="card-title"><q>1 месяц</q></h4>
+                            </div>
+                                <div class="details">
+                                    <p>Срок:</p>
+                                    <p><strong>в течение месяца</strong></p>
+                                </div>
+                                <div class="details">
+                                    <p>Вопросов/комплектов на оценку</p>
+                                    <p><strong>Неограничено</strong></p>
+                                </div>
+                                <div class="price">
+                                    <span class="old">11990&#8381; </span>
+                                    <span class="new">9990&#8381; </i></span>
+                                </div>
+
+                                <a href="#">Заказать</a>
+                            </div>
+                          </div>
+                        </div> <!--cards-box-->
+                    </div> <!--container-->
+                    
+                </section>
         </article>
-    
-    
+  
+       
     <!--bootstrap-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -1,6 +1,3 @@
-// .container.wrap {
-//     position: relative;
-// }
 .header {
     position: absolute;
     width: 100%;
@@ -14,6 +11,8 @@
         position: static;
         z-index:0;
     }
+
+   
 
     &__nav {
         width: 100%;

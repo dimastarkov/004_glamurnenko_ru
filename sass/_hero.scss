@@ -13,6 +13,10 @@ section.main__hero {
         color: #fff;
         width: 100%;
 
+        & .container {
+            background: none;
+        }
+
         
         & .hero {
         
