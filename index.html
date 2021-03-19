@@ -10,13 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
     <!-- font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--fancy box-->
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.min.css">
     <!--bootstrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--главный файл стилей-->
     <link rel="stylesheet" href="css/style.css">
 </head>
-        
-<header class="header d-flex justify-content-between">
+     <body id="top">
+<header id="header" class="header d-flex justify-content-between">
     <div class="container">
     <nav class="header__nav navbar navbar-expand-lg navbar-light starkov">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -266,15 +268,73 @@
                           </div>
                         </div> <!--cards-box-->
                     </div> <!--container-->
-                    
+                </section> <!--container-->
+
+
+                <section class="gallery">
+                    <div class="container">
+                        <div class="post__wrap">
+                            <h3>Как все происходит</h3>
+
+                            <div class="row mb-3 align-items-center">
+                                <div class="col-md-5">
+                                    <a href="/img/ekat-img-2.png" data-fancybox="gallery" data-caption="Клиент-1">
+                                        <img src="/img/ekat-img-2.png" alt="Клиент_1" style="width: 100%;">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                                </div>
+                            </div>
+                                <div class="row mb-3 align-items-center">
+                                <div class="col-md-5">
+                                    <a href="/img/ekat-licovec.png" data-fancybox="gallery" data-caption="Клиент-2">
+                                     <img src="/img/ekat-licovec.png" alt="Клиент_2" style="width: 100%;">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
                 </section>
-        </article>
+            </article>
+
+            <footer>
+                <div class="container">
+                    <a class="to-top" href="#top">Наверх <i class="fas fa-chevron-up"></i></a>
+                
+
+                <div class="info">
+                    <ul>
+                        <li>
+                            <a href="#">Вакансии</a>
+                        </li>
+                        <li>
+                            <a href="#">Карта сайта</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика приватности</a>
+                        </li>
+                        <li>
+                            <a href="#">&copy; Glamurnenko.ru</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            </footer>
   
        
-    <!--bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--bootstrap + jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--fancy box-->
+    <script src="/js/jquery.fancybox.min.js"></script>
     <!--sticky menu script-->
     <script src="js/menu-script.js"></script>
 </body>

@@ -58,7 +58,8 @@ a:hover {
   min-height: 30rem;
   overflow: hidden;
   margin: 0 auto;
-  text-align: left; }
+  text-align: left;
+  padding-bottom: 6rem; }
   @media only screen and (max-width: 48em) {
     .post__wrap {
       width: 100%; } }
@@ -75,6 +76,12 @@ a:hover {
     .header {
       position: static;
       z-index: 0; } }
+  .header.menu-sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8); }
   .header__nav {
     width: 100%; }
     .header__nav button {
@@ -316,6 +323,29 @@ section.cards .card {
     color: #fff;
     background-color: red;
     border-radius: 3px; }
+
+section.gallery h3 {
+  text-align: left; }
+
+section.gallery p {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #777; }
+
+footer {
+  min-height: 20rem;
+  text-align: center;
+  color: #fff; }
+  footer .to-top {
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: .7rem 1rem;
+    display: inline-block;
+    margin: 3rem auto; }
+  footer .info {
+    text-align: left; }
+    footer .info ul {
+      list-style: none; }
 
 .collapse.navbar-collapse.starkov {
   flex-grow: 0; }

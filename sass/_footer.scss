@@ -1,0 +1,21 @@
+footer {
+    min-height: 20rem;
+    text-align: center;
+    color: #fff;
+
+    & .to-top {
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        padding:.7rem 1rem;
+        display: inline-block;
+        margin: 3rem auto;
+        
+    }
+
+    & .info {
+        text-align: left;
+        & ul {
+            list-style: none;
+        }
+    }
+}
