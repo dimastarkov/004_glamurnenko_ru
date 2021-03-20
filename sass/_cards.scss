@@ -7,20 +7,28 @@ section.cards {
     & .cards {
         &-box {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             text-align: center;
+            max-width: 120rem;
+            margin: 0 auto;
         }
     }
     & .card {
-        width:25%;
+        width:34rem;
         min-height: 48rem;
         font-size: 1.6rem;
         transition: all .2s;
+        margin-bottom: 6rem;
         
 
         &:not(:last-child) {
             margin-right: 4rem;
+
+            @media only screen and (max-width:48em) { // 768px
+                margin-right: 0;
+            }
         }
 
         &:hover {

@@ -2,10 +2,10 @@ section.main__hero {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        background:url('img/bg-main.png') center top;
+        background:url('/img/bg-main.png') center top;
         background-repeat: no-repeat;
         background-size: 120%;
-        min-height: 60rem;
+        //min-height: 60rem;
         position: relative;
         font-family: 'Oranienbaum', serif;
         font-size: 2.4rem;
@@ -15,19 +15,51 @@ section.main__hero {
 
         & .container {
             background: none;
+            margin-top: 13rem;
+            margin-bottom: 10rem;
+
+            @media only screen and (max-width:75em) { // 1200px
+                margin-top: 9vw;
+                margin-bottom: 4vw;
+            }
+
+            
+
         }
 
         
         & .hero {
+
+            &-logo img {
+
+                @media only screen and (max-width:75em) { // 1200px
+                    width: 18vw;
+                }
+
+               
+            }
         
             &-title {
             color: #fff;
             margin-top: 5rem;
             text-transform: uppercase;
+
+            @media only screen and (max-width:75em) { // 1200px
+                margin-top: 4vw;
+                margin-bottom: 4vw;
+            }
+
+
             & span {
                 display: block;
             }
             & .mission {
+
+                @media only screen and (max-width:75em) { // 1200px
+                    font-size: 3vw;
+                }
+
+
                 &::after {
                     content: "";
                 }
@@ -37,6 +69,11 @@ section.main__hero {
                 text-decoration: underline;
                 font-size: 2rem;
                 line-height: 2;
+
+                @media only screen and (max-width:75em) { // 1200px
+                    font-size: 2vw;
+                }
+
                 &::before {
                     content: "\00AB";
                 }

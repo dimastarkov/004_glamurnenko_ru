@@ -22,6 +22,11 @@ section.main__content {
                 font-size: 1.6rem;
                 padding: .5rem 0;
                 box-shadow: 0 .5rem .7rem rgba(0, 0, 0, .2);
+
+                @media only screen and (max-width:75em) { // 1200px
+                   width: 42vw;
+                   transform: rotate(-45deg) translate(-15vw, -8vw);
+                }
             }
         } // .container.new
 
@@ -44,6 +49,11 @@ section.main__content {
         text-align: center;
         width:65%;
         margin: 0 auto 5rem;
+
+        @media only screen and (max-width:37.5em) { // 600px
+            font-size: 3vw;
+            width: 80%;
+        }
         
     }
     &__image  {
