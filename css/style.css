@@ -136,11 +136,11 @@ a:hover {
       .header__socials .item:hover {
         background-position: 0 -25px; }
     .header__socials-inst {
-      background-image: url("/img/1438557260_inst_4.png"); }
+      background-image: url("img/1438557260_inst_4.png"); }
     .header__socials-fb {
-      background-image: url("/img/1438557245_ab_4.png"); }
+      background-image: url("img/1438557245_ab_4.png"); }
     .header__socials-vk {
-      background-image: url("/img/1438423986_vk_3.png"); }
+      background-image: url("img/1438423986_vk_3.png"); }
   .header__contacts {
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@ section.main__hero {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: url("/img/bg-main.png") center top;
+  background: url("img/bg-main.png") center top;
   background-repeat: no-repeat;
   background-size: 120%;
   position: relative;
