@@ -10,6 +10,7 @@
     @media only screen and (max-width:62em) { // 992 px
         position: static;
         z-index:0;
+        padding-top: 1rem;
     }
 
     &.menu-sticky { // закрепляем меню сверху страницы
@@ -25,7 +26,7 @@
         width: 100%;
         & button {
             padding: 2rem;
-            @media only screen and (max-width:62em) { //992px
+            @media only screen and (max-width:61.94em) { //991px
                 order:-3
             }
             & span {
@@ -46,6 +47,12 @@
                     transform: translateY(.7rem);
                 }
             }
+        } //button
+
+        & ul {
+            @media only screen and (max-width:62em) { // 992 px
+                padding-left: 2rem;
+            }
         }
         &-item {
             &:not(:last-child) {
@@ -65,7 +72,7 @@
         justify-content: center;
         align-items: center;
 
-        @media only screen and (max-width:62em) { //992px
+        @media only screen and (max-width:61.94em) { //991px
             order:-1 //меняем порядок соц сетей на моб версии
         }
 
@@ -94,7 +101,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        @media only screen and (max-width:62em) { // 992 px
+        @media only screen and (max-width:61.94em) { // 991 px
             order:-2 //меняем порядок телефонов на моб версии
         }
 
