@@ -7,12 +7,12 @@
     color: #fff;
     z-index: 1;
 
-    @media only screen and (max-width:991px) {
+    @media only screen and (max-width:62em) { // 992 px
         position: static;
         z-index:0;
     }
 
-    &.menu-sticky {
+    &.menu-sticky { // закрепляем меню сверху страницы
         position: sticky;
         top: 0;
         left: 0;
@@ -21,11 +21,11 @@
     }
    
 
-    &__nav {
+    &__nav { //контейнер меню
         width: 100%;
         & button {
             padding: 2rem;
-            @media only screen and (max-width:992px) {
+            @media only screen and (max-width:62em) { //992px
                 order:-3
             }
             & span {
@@ -59,14 +59,14 @@
         } //.header__nav-item
     } //.header__nav
 
-    &__socials {
+    &__socials { // соц сети
         display: inline-block;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        @media only screen and (max-width:992px) {
-            order:-1
+        @media only screen and (max-width:62em) { //992px
+            order:-1 //меняем порядок соц сетей на моб версии
         }
 
         & .item {
@@ -76,7 +76,7 @@
             cursor: pointer;
 
             &:hover {
-                background-position: 0 -25px;
+                background-position: 0 -25px; // меняем положение фона для смены цвета иконки
             }
         }
         &-inst {
@@ -94,8 +94,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        @media only screen and (max-width:992px) {
-            order:-2
+        @media only screen and (max-width:62em) { // 992 px
+            order:-2 //меняем порядок телефонов на моб версии
         }
 
         & p {

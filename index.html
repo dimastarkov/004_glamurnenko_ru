@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,74 +8,81 @@
     <title>Гламурненько</title>
     <!--шрифты-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto:wght@100;400;700;900&display=swap"
+        rel="stylesheet">
     <!-- font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--fancy box-->
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
     <!--bootstrap css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--главный файл стилей-->
     <link rel="stylesheet" href="css/style.css">
 </head>
-     <body id="top">
-<header id="header" class="header d-flex justify-content-between">
-    <div class="container">
-    <nav class="header__nav navbar navbar-expand-lg navbar-light starkov">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="toggler-icon"></span>
-          </button>
 
-          
+<body id="top">
 
-          <div class="collapse navbar-collapse starkov" id="navbarSupportedContent">
-            <ul class="header__nav-list navbar-nav">
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Блог</a>
-                </li>
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Бесплатно</a>
-                </li>
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Семинары</a>
-                </li>
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Тренинги</a>
-                </li>
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Услуги</a>
-                </li>
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Отзывы</a>
-                </li>
-                <li class="header__nav-item nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
-                </li>
-            </ul><!--header__nav-list-->
-        </div>
+    <!--хедер сайта-->
+    <!--_header.scss-->
+    <header id="header" class="header d-flex justify-content-between">
+        <div class="container">
+            <nav class="header__nav navbar navbar-expand-lg navbar-light starkov">
 
-        <div class="header__socials">
-            <div class="header__socials-inst item"></div>
-            <div class="header__socials-fb item"></div>
-            <div class="header__socials-vk item"></div>
-        </div> <!--header__socials-->
-        <div class="header__contacts">
-            <p>8(800)707-05-13</p>
-            <p>+7(499)350-23-35</p>
-        </div> <!--header__contacts-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="toggler-icon"></span>
+                </button>
 
-    </nav> <!--nav-->
-     </div> <!--container-->
-</header>
-    
+                <div class="collapse navbar-collapse starkov" id="navbarSupportedContent">
+                    <ul class="header__nav-list navbar-nav">
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Блог</a>
+                        </li>
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Бесплатно</a>
+                        </li>
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Семинары</a>
+                        </li>
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Тренинги</a>
+                        </li>
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Услуги</a>
+                        </li>
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Отзывы</a>
+                        </li>
+                        <li class="header__nav-item nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                    </ul><!--header__nav-list-->
+                </div><!--collapse navbar-collapse starkov-->
 
+                <div class="header__socials">
+                    <div class="header__socials-inst item"></div>
+                    <div class="header__socials-fb item"></div>
+                    <div class="header__socials-vk item"></div>
+                </div><!--header__socials-->
 
+                <div class="header__contacts">
+                    <p>8(800)707-05-13</p>
+                    <p>+7(499)350-23-35</p>
+                </div><!--header__contacts-->
+            </nav><!--nav-->
+        </div><!--container-->
+    </header>
+    <!--КОНЕЦ _header.scss-->
+    <!--КОНЕЦ хедер сайта-->
 
-    
+    <main>
         <article class="main">
             
+            <!--Эта часть с главным логотипом и фоном-->
+            <!--_hero.scss-->
             <section class="main__hero">
-           
                 <div class="container">
                     <div class="hero-logo">
                         <img src="img/logo-new.png" alt="Logo">
@@ -84,149 +92,177 @@
                         <span class="mission-desc">Миллион красиво одетых женщин</span>
                     </h2>
                 </div>
-         
-         </section>
+            </section>
+            <!--КОНЕЦ _hero.scss-->
+            <!--КОНЕЦ Эта часть с главным логотипом и фоном-->
 
 
+            <!--Основное содержимое страницы-->
+            <!--_content.scss - отвечает за все содержимое страницы за исключением отдельных элементов (таблица, карты и тд)-->   
+            <section class="main__content post">
+                <div class="container new"> <!--класс new для псудо элемента с красной плашкой НОВОЕ-->
+                    
+                    <h1 class="post__title">Скорая стильная помощь</h1>
+                    <p class="post__summary">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                        consectetur,
+                        adipisci velit..."
+                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
+                        it
+                        is pain..."</p>
 
+                </div>
 
-                <section class="main__content post">
-                  
-                    <div class="container new">
-    
-                       
-                            <h1 class="post__title">Скорая стильная помощь</h1>
-                            <p class="post__summary">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-                                
-                         </div>   
-                   
-                    <div class="container full-width">
-                        <div class="post__image">
-                             <img src="img/form-reservation-bigcolor.jpg" alt="post__image" class="">
-                             <p>Описание картинки</p>
-                        </div>
+                <div class="container full-width"> <!--full-width делает контейнер на полную ширину без паддинг-->
+                    <div class="post__image">
+                        <img src="img/form-reservation-bigcolor.jpg" alt="post__image" class="">
+                        <p>Описание картинки</p>
                     </div>
-                   
-                    <div class="container">
-                        <div class="post__wrap">
-                            <h2 class="post__subtitle">Как все происходит</h2>
+                </div>
 
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                <p class="ml-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        </div>
-                    </div>
-                  
-                </section>
+                <div class="container">
+                    <div class="post__wrap"> <!--post-wrap уменьшает ширину контента внутри контейнера-->
+                        <h2 class="post__subtitle">Как все происходит</h2>
 
-                
-                <section class="table">
-                 
-                    <div class="container">
-                        <div class="post__wrap">
-                            <table class="table table-responsive-sm">
-                                <thead>
-                                  <tr class="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions
+                            of
+                            Lorem Ipsum.</p>
+                        <p class="ml-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer
+                            took a galley of type and scrambled it to make a type specimen book. It has survived not
+                            only
+                            five centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div> <!--post-wrap-->
+                </div> <!--container-->
+
+            </section> <!--main-content-->
+
+
+            <!--таблица с тарифами-->
+            <!--_table.scss-->
+            <section class="table">
+
+                <div class="container">
+                    <div class="post__wrap">
+                        <table class="table table-responsive-sm">
+                            <thead>
+                                <tr>
                                     <th class="cell-head bg-warning">ВЫ ПОЛУЧАЕТЕ:</th>
-                                    <th class="bg-warning col-card" >ТЕОРИЯ</th>
+                                    <th class="bg-warning col-card">ТЕОРИЯ</th>
                                     <th class="bg-warning col-card">ПРАВКТИКА</th>
                                     <th class="bg-warning col-card">VIP</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
                                     <th class="cell-head">Все материалы тренинка</th>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
-                                  </tr>
-                                  <tr>
+                                </tr>
+                                <tr>
                                     <th class="cell-head">Проверка ДЗ</th>
                                     <td class="col-card"><i class="fa fa-minus"></i></td>
-                                    <td class="col-card">2.5 месяца <span>имиджмейкером команды Гламурненько.ру</span></td>
+                                    <td class="col-card">2.5 месяца <span>имиджмейкером команды Гламурненько.ру</span>
+                                    </td>
                                     <td class="col-card">2.5 месяца <span>лично Екатериной Маляровой</span></td>
-                                  </tr>
-                                  <tr>
+                                </tr>
+                                <tr>
                                     <th class="cell-head">Тренажер по стилевым типажам</th>
                                     <td class="col-card"><i class="fa fa-minus"></i></td>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
-                                  </tr>
-                                  <tr>
+                                </tr>
+                                <tr>
                                     <th class="cell-head">Тренажер по вещам и образам</th>
                                     <td class="col-card"><i class="fa fa-minus"></i></td>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
                                     <td class="col-card"><i class="fas fa-check"></i></td>
-                                  </tr>
-                                  <tr>
+                                </tr>
+                                <tr>
                                     <th class="cell-head bg-warning">Цена</th>
                                     <td class="bg-warning price">7&nbsp;990</td>
                                     <td class="bg-warning price">9&nbsp;900</td>
                                     <td class="bg-warning price">24&nbsp;990</i></td>
-                                  </tr>
-                                  <tr>
+                                </tr>
+                                <tr>
                                     <th class="cell-head">&nbsp;</th>
                                     <td colspan="3">
                                         <i class="fas fa-ruble-sign currencies"></i>
                                         <i class="fas fa-euro-sign currencies"></i>
                                         <i class="fas fa-dollar-sign currencies"></i>
                                     </td>
-                                  </tr>
-                                  <tr>
+                                </tr>
+                                <tr>
                                     <th class="cell-head">&nbsp;</th>
                                     <td><a href="#">Заказать</a></td>
                                     <td><a href="#">Заказать</a></td>
                                     <td><a href="#">Заказать</a></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        </div> <!--post__wrap-->
-                    </div> <!--container-->
-                   
-                </section> <!--table-->
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--post__wrap-->
+                </div><!--container-->
+            </section><!--table-->
+            <!--КОНЕЦ таблица с тарифами-->
+            <!--КОНЕЦ _table.scss-->
 
-                <section class="books">
-                   
-                    <div class="container">
-                        <img src="img/2razmera_books_preview_1200_c.png" alt="books">
-                    </div>
-                    
-                </section>
+            <!--картинка с книгами-->
+            <section class="books">
+                <div class="container">
+                    <img src="img/2razmera_books_preview_1200_c.png" alt="books">
+                </div>
+            </section>
+            <!--КОНЕЦ картинка с книгами-->
 
-                <section class="cards">
+            <!--карты-->
+            <section class="cards">
+                <div class="container">
+                    <h3>Пакеты услуг</h3>
                     
-                    <div class="container">
-                        <h3>Пакеты услуг</h3>
-                        <div class="cards-box">
+                    <div class="cards-box">
+                        
                         <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <p class="card-text">Пакет</p>
                                     <h4 class="card-title"><q>Попробовать</q></h4>
                                 </div>
-                              <div class="details">
-                                <p>Срок:</p>
-                                <p><strong>в течение 24 часов</strong></p>
-                            </div>
-                            <div class="details">
-                                <p>Вопросов/комплектов на оценку</p>
-                                <p><strong>5 ваших луков или вопросов</strong></p>
-                            </div>
-                            <div class="price">
-                                <span class="old">890&#8381;</span>
-                                <span class="new">490&#8381;</span>
-                            </div>
+                                <div class="details">
+                                    <p>Срок:</p>
+                                    <p><strong>в течение 24 часов</strong></p>
+                                </div>
+                                <div class="details">
+                                    <p>Вопросов/комплектов на оценку</p>
+                                    <p><strong>5 ваших луков или вопросов</strong></p>
+                                </div>
+                                <div class="price">
+                                    <span class="old">890&#8381;</span>
+                                    <span class="new">490&#8381;</span>
+                                </div>
+                                <a href="#">Заказать</a>
+                            </div> <!--card-body-->
+                        </div> <!--card-->
 
-                            <a href="#">Заказать</a>
-                            </div>
-                          </div>
-
-                          <div class="card">
+                        <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                <p class="card-text">Пакет</p>
-                                <h4 class="card-title"><q>1 день</q></h4>
-                            </div>
+                                    <p class="card-text">Пакет</p>
+                                    <h4 class="card-title"><q>1 день</q></h4>
+                                </div>
                                 <div class="details">
                                     <p>Срок:</p>
                                     <p><strong>в течение 24 часов</strong></p>
@@ -239,17 +275,16 @@
                                     <span class="old">3990&#8381;</span>
                                     <span class="new">2990&#8381;</span>
                                 </div>
-
                                 <a href="#">Заказать</a>
-                            </div>
-                          </div>
+                            </div> <!--card-body-->
+                        </div> <!--card-->
 
-                          <div class="card">
+                        <div class="card">
                             <div class="card-body">
                                 <div class="title">
-                                <p class="card-text">Пакет</p>
-                                <h4 class="card-title"><q>1 месяц</q></h4>
-                            </div>
+                                    <p class="card-text">Пакет</p>
+                                    <h4 class="card-title"><q>1 месяц</q></h4>
+                                </div>
                                 <div class="details">
                                     <p>Срок:</p>
                                     <p><strong>в течение месяца</strong></p>
@@ -262,80 +297,97 @@
                                     <span class="old">11990&#8381; </span>
                                     <span class="new">9990&#8381; </i></span>
                                 </div>
-
                                 <a href="#">Заказать</a>
-                            </div>
-                          </div>
-                        </div> <!--cards-box-->
-                    </div> <!--container-->
-                </section> <!--container-->
+                            </div> <!--card-body-->
+                        </div> <!--card-->
+                    </div><!--cards-box-->
+                </div><!--container-->
+            </section><!--cards-->
 
-
-                <section class="gallery">
-                    <div class="container">
-                        <div class="post__wrap">
-                            <h3>Как все происходит</h3>
-
-                            <div class="row mb-3 align-items-center">
-                                <div class="col-md-5 mb-5">
-                                    <a href="img/ekat-img-2.png" data-fancybox="gallery" data-caption="Клиент-1">
-                                        <img src="img/ekat-img-2.png" alt="Клиент_1" style="width: 100%;">
-                                    </a>
-                                </div>
-                                <div class="col mb-5">
-                                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-                                </div>
-                            </div>
-                                <div class="row mb-3 align-items-center">
-                                <div class="col-md-5 mb-5">
-                                    <a href="img/ekat-licovec.png" data-fancybox="gallery" data-caption="Клиент-2">
-                                     <img src="img/ekat-licovec.png" alt="Клиент_2" style="width: 100%;">
-                                    </a>
-                                </div>
-                                <div class="col mb-5">
-                                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                                        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                </section>
-            </article>
-
-            <footer>
+            <!--галлерея с отзывами-->
+            <!--_gallery.scss-->
+            <section class="gallery">
                 <div class="container">
-                    <a class="to-top" href="#top">Наверх <i class="fas fa-chevron-up"></i></a>
-                
+                    <div class="post__wrap">
+                        <h3>Как все происходит</h3>
 
-                <div class="info">
-                    <ul>
-                        <li>
-                            <a href="#">Вакансии</a>
-                        </li>
-                        <li>
-                            <a href="#">Карта сайта</a>
-                        </li>
-                        <li>
-                            <a href="#">Политика приватности</a>
-                        </li>
-                        <li>
-                            <a href="#">&copy; Glamurnenko.ru</a>
-                        </li>
-                    </ul>
-                </div>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-md-5 mb-5">
+                                <a href="img/ekat-img-2.png" data-fancybox="gallery" data-caption="Клиент-1">
+                                    <img src="img/ekat-img-2.png" alt="Клиент_1" style="width: 100%;">
+                                </a>
+                            </div>
+                            <div class="col mb-5">
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci
+                                    velit..."
+                                    "There is no one who loves pain itself, who seeks after it and wants to have it,
+                                    simply
+                                    because it is pain..."</p>
+                            </div>
+                        </div> <!--row-->
 
-            </div>
-            </footer>
-  
-       
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-md-5 mb-5">
+                                <a href="img/ekat-licovec.png" data-fancybox="gallery" data-caption="Клиент-2">
+                                    <img src="img/ekat-licovec.png" alt="Клиент_2" style="width: 100%;">
+                                </a>
+                            </div>
+                            <div class="col mb-5">
+                                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci
+                                    velit..."
+                                    "There is no one who loves pain itself, who seeks after it and wants to have it,
+                                    simply
+                                    because it is pain..."</p>
+                            </div>
+                        </div> <!--row-->
+                    </div> <!--post-wrap-->
+                </div> <!--container-->
+            </section> <!--gallery-->
+            <!--КОНЕЦ галлерея с отзывами-->
+            <!--КОНЕЦ _gallery.scss-->
+
+        </article> <!--main-->
+    </main>
+
+    <!--_footer.scss-->
+    <footer>
+        <div class="container">
+            <a class="to-top" href="#top">Наверх <i class="fas fa-chevron-up"></i></a>
+
+            <div class="info">
+                <ul>
+                    <li>
+                        <a href="#">Вакансии</a>
+                    </li>
+                    <li>
+                        <a href="#">Карта сайта</a>
+                    </li>
+                    <li>
+                        <a href="#">Политика приватности</a>
+                    </li>
+                    <li>
+                        <a href="#">&copy; Glamurnenko.ru</a>
+                    </li>
+                </ul>
+            </div> <!--info-->
+        </div> <!--container-->
+    </footer>
+
+
     <!--bootstrap + jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <!--fancy box-->
     <script src="js/jquery.fancybox.min.js"></script>
-    <!--sticky menu script-->
+    <!--sticky menu + up-button script-->
     <script src="js/menu-script.js"></script>
 </body>
 </html>

@@ -2,9 +2,7 @@ section.table {
     margin-bottom:0 ;
     & .container {
         //overflow: hidden!important;
-        
     }
-
 
     & table {
         margin: 4rem 0;
@@ -60,7 +58,5 @@ section.table {
             font-size: 1.1rem;
 
         }
-    }
-
-    
-}
+    } //table, table th, table td 
+} //table

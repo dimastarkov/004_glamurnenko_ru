@@ -1,13 +1,13 @@
 section .container {
     background-color: #fff;
-    overflow: hidden;
+    overflow: hidden; // чтобы перписать margin bootstrap (без этого марджин работает не так как хочется)
 }
 
 section.main__content {
 
     & .container {
     
-        &.new {
+        &.new { //плашка НОВОЕ
             overflow: hidden;
 
             &::before {
@@ -30,7 +30,7 @@ section.main__content {
             }
         } // .container.new
 
-        &.full-width {
+        &.full-width { //делаем содержимое контейнера в полную ширину
             padding:0;
         } // .container.full-width
      } // .container
@@ -39,7 +39,7 @@ section.main__content {
     
     
     &.post {
-        color: $post-text;
+        color: $post-text; // цвет текста
     }
      & .post {
         
@@ -65,22 +65,11 @@ section.main__content {
          text-align: center;
      }
     }
-
-    &__wrap {
-        
-
-    
-
-        & p {
-            font-size: 1.6rem;
-            margin: 1rem 0;
-        }
-    }
   }// .post
 } // section.main__content
 
 
-section.books {
+section.books { // картинка с книгами
     & .container{
         width: 100%;
         padding: 0;
@@ -88,11 +77,6 @@ section.books {
         & img {
             width: 100%;
         }
-        
-    }
+    } //.container
 } // section.books
-
-section.books {
- 
-}
 

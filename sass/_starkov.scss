@@ -1,19 +1,15 @@
 .collapse.navbar-collapse.starkov {
     flex-grow: 0;
 
-    @media only screen and (max-width:992px) {
+    @media only screen and (max-width:62em) { // 992 px
         flex-grow: auto;
-    }
-
-   
+    }   
 }
 
 .header__nav.navbar.navbar-expand-lg.starkov {
-    
         -webkit-box-pack:justify;
         -ms-flex-pack:justify;
         justify-content: space-between;
-
 }
 
     

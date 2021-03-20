@@ -77,13 +77,9 @@ section.cards {
                     top: 1rem;
                     left: 50%;
                     transform: rotate(-10deg) 
-                               translateX(-50%);
-                    
+                               translateX(-50%);    
                 }
-
             } //old price
-
-           
             } // price
 
             & a {
@@ -96,8 +92,5 @@ section.cards {
                 background-color: red;
                 border-radius: 3px;
             }
-        } // card
-
-        
-        
+        } // card    
     } //section.cards

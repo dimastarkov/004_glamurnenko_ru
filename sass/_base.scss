@@ -1,4 +1,4 @@
-//сброс  вуафгде  настроек
+//сброс  основных  настроек
 * {padding: 0; margin: 0;}
 *, *::before, *::after {box-sizing: inherit;}
 html {box-sizing: border-box; font-size: 62.5%; // 1 rem = 10 px
@@ -32,29 +32,27 @@ h1 {
         font-size: 7vw;
     }
 }
+
 h2 {
     font-size: 4rem;
     margin: 4rem 0;  
 }
+
 h3 {
     font-size: 2.5rem;
     margin: 4rem auto;  
     text-align: center;
 
     @media only screen and (max-width:75em) { // 1200px
-        font-size: 2vw;
+        font-size: 3rem;
+        margin-bottom: 6rem;
     }
-
-    @media only screen and (max-width:48em) { // 768px
-        font-size: 3vw;
-    }
-
 }
+
 h4 {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-
 }
 
 p {
@@ -70,7 +68,7 @@ a:hover {
 }
 
 
-
+//этот контейнер уменьшает ширину контента по всему сайту внутри контейнера (там где используется)
 .post__wrap {
         width: 70%;
         min-height: 30rem;
@@ -79,8 +77,12 @@ a:hover {
         text-align: left;
         padding-bottom: 6rem;
 
-        @media only screen and (max-width:48em) {
+        @media only screen and (max-width:48em) { // 768 px
             width: 100%;
         }  
         
+        & p {
+            font-size: 1.6rem;
+            margin: 1rem 0;
+        }
 }

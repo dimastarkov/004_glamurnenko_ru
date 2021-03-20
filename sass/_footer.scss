@@ -3,7 +3,7 @@ footer {
     text-align: center;
     color: #fff;
 
-    & .to-top {
+    & .to-top { // кнопка наверх
         text-transform: uppercase;
         border: 1px solid #fff;
         padding:.7rem 1rem;
@@ -21,5 +21,5 @@ footer {
         & ul {
             list-style: none;
         }
-    }
-}
+    } // инфо
+} // футер
